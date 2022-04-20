@@ -1,0 +1,122 @@
+.logo{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left:50px;
+    top:23px;
+    cursor: pointer;
+    
+}
+
+.main-container{
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 59px;
+    width: 100%;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+}
+
+.navBar{
+    color:white;
+}
+
+
+.navBar ul{
+    display: inline-flex;
+    position: relative;
+    top: 5px;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+.navBar ul li{
+    display: block;
+    padding: 5px;
+    margin-right: 10px;
+    
+}
+
+.navBar ul li a{
+    transition: opacity var(--transitions-duration) ease-in-out;
+    color: var(--primary-color);
+}
+
+.navBar ul li a:hover{
+    border-bottom: 2px solid white;
+    transition:   ease-in 0.5s;
+    background-color: #6272a433;
+    border-radius: 2px;
+    padding: 3px 10px 3px 10px;
+    opacity: 0.2;
+}
+
+.profile{
+    max-width: 760px;
+    height: 70vh;
+    margin:0 auto;
+    margin-top: 100px;
+    /* background-color: blue; */
+    /* display: flex;
+    flex-direction: column; */
+}
+.imgProfile{
+    width:120px;
+    height:120px;
+    margin: 0 auto;
+    position: relative;
+    top:8em;
+   
+}
+
+.imgParams{
+    margin: 0 auto;
+    width:120px;
+    height:120px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.description{
+    margin: 0 auto;
+    height: auto;
+    width:70%;
+    /* background-color: orange; */
+    text-align: center;
+    position:relative;
+    top:10em;
+}
+
+
+p {
+    color:#8f9ba8;
+}
+
+.icons{
+    height: auto;
+    width: 768px;
+    text-align: center;
+    /* background-color: yellow; */
+    position: relative;
+    top:14em;
+}
+
+.icons i{
+    display: inline-block;
+    margin-left: 30px;
+}
+.icons a{
+    text-decoration: none;
+}
+ .resize{
+     margin-right: 3.5em;
+ }
