@@ -120,3 +120,7 @@ p {
  .resize{
      margin-right: 3.5em;
  }
+
+.icons i:hover{
+    transform: scale(1.3);
+}
