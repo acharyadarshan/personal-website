@@ -1,21 +1,21 @@
 *{
     margin:0;
     padding: 0;
-}
-
-html{
     box-sizing: border-box;
 }
+
 
 :root{
     --colors-background: #08070b;
     --primary-color:#f2f2f2;
     --secondary-color:#8f9ba8;
     --transitions-duration: 0.2s;
-    --fonts-body: ;
     --fonts-code: Fira Code, monospace;
     --fonts-heading: Neuzeit Grotesk Bold, sans-serif;
     --default-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    --cyan: #80ffea;
+    --yellow: #ffff80;
+    --pink: #ff80bf;
 }
 
 /* .header{

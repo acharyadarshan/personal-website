@@ -19,9 +19,9 @@
     min-height: 59px;
     width: 100%;
     flex-wrap: wrap;
-    position: absolute;
-    top: 0px;
-    z-index: 3;
+
+    
+    
 }
 
 .navBar{
@@ -61,10 +61,10 @@
 }
 
 .profile{
-    max-width: 760px;
+    max-width: 768px;
     height: 70vh;
     margin:0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
     /* background-color: blue; */
     /* display: flex;
     flex-direction: column; */
@@ -123,4 +123,166 @@ p {
 
 .icons i:hover{
     transform: scale(1.3);
+}
+
+span.color{
+    color: #f2f2ff;
+}
+
+
+
+/* Blogs section */
+
+.portfolio{
+    background-color: white;
+    max-width: 768px;
+    margin:0 auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    
+}
+
+/* .topHeading{
+    font-size: 30px;
+    list-style: 50px;
+    font-family: inherit;
+    color:var(--cyan);
+    text-align: center;
+} */
+
+.portfolio{
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(180px, 1fr);
+    grid-auto-flow: dense;
+    padding: 2rem;
+}
+.pBox{
+    
+    background-color: #770f0f;
+    border: 3px solid white;
+    border-radius: .66rem;
+    
+    /*Center number in cards*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    margin-bottom: 20px;
+}
+.pBox img{
+    max-width:100%;
+    max-height:100%;    
+    object-fit: contain;
+    border-radius: .66rem;
+}
+.pBox video{
+    max-width:100%;
+    max-height:100%;    
+    object-fit: cover;
+    border-radius: 0.66rem;
+    width: 323.2px;
+    height: 242.4px;
+}
+.pBox a{
+    text-decoration: none;
+}
+.caption{
+    text-align: center;
+    color: var(--primary-color);
+    display: block;
+    font-family: inherit;
+}
+
+.demoLink{
+    display: flex;
+    position: absolute;
+    top:18em;
+    left: 5em;
+    margin-right: 20px;
+    justify-content: space-evenly;
+    background-color: #770f0f;
+    width: 50%;
+}
+.styleButton{
+    /* margin-right: 20px;
+    padding: 5px; */
+    font-family: inherit;
+    color: var(--secondary-color);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+
+/* recommendations */
+
+.mainContent{
+    margin: 0 auto;
+    max-width: 768px;
+    margin-top: 3em;
+    background-color: blueviolet;
+    font-family: inherit;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+
+}
+
+h1{
+    text-align: center;
+    background-image: linear-gradient( 135deg, var(--yellow) 0%, var(--pink) 100% );
+    font-family: inherit;
+    font-size: 48px;
+    line-height: 50px;
+    margin: 0px 0px 20px;
+    color: var(--primary-color);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mainContent p{
+
+    color: var(--secondary-color);
+    
+}
+
+ul li::marker {
+    color: rgb(143, 155, 168);
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+ul li span{
+    color: var(--secondary-color);
+}
+ul li a{
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+
+}
+
+.intro{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.intro ul li{
+    /* padding-left: 13px; */
+    
+}
+.intro h2{
+    font-size: 24px;
+    color: var(--primary-color);
+    font-family: inherit;
+    padding-bottom: 16px;
+  
 }
