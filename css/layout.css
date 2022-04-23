@@ -227,7 +227,6 @@ span.color{
     margin: 0 auto;
     max-width: 768px;
     margin-top: 3em;
-    background-color: blueviolet;
     font-family: inherit;
     padding-bottom: 20px;
     padding-left: 15px;
@@ -275,14 +274,38 @@ ul li a{
     margin-top: 30px;
 }
 
-.intro ul li{
-    /* padding-left: 13px; */
+/* .intro ul li{
+     padding-left: 13px; 
     
-}
+}  */
+
 .intro h2{
     font-size: 24px;
     color: var(--primary-color);
     font-family: inherit;
     padding-bottom: 16px;
   
+}
+
+.reminder{
+    padding-top: 20px;
+    margin-top: 3em;
+}
+
+.reminder h1{
+    background-image: linear-gradient( 135deg, var(--cyan) 0%, var(--green) 100% );
+    font-family: inherit;
+    text-align: center;
+    font-size: 48px;
+    line-height: 50px;
+    margin: 0px 0px 20px;
+    color: var(--cyan);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.reminder span{
+
+        color: var(--primary-color);
 }
